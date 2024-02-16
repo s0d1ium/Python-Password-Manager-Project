@@ -1,0 +1,6 @@
+#include <stdio.h>
+int main() {
+    int score;
+    printf("Enter score between 0 and 100: ");
+    scanf("%i", score);
+}

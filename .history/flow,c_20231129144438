@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main(void) {
+    int score;
+
+    while (score > 100 || score < 0) {
+        printf("Enter score between 0 and 100: ");
+        scanf("%i", score);
+    }
+
+    if (score >= 70) {
+        printf("Passed");
+    }
+    else {
+        printf("Failed");
+    }
+
+}
